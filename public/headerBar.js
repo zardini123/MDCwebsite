@@ -1,12 +1,15 @@
 document.write('\
 <!DOCTYPE html>\
 <head>\
-  <link rel="stylesheet" href="index.css">\
+  <link rel="stylesheet" href="/index.css">\
 </head>\
 \
 <div class="navbar">\
-  <a href="entries/entry.html">Entry</a>\
-  <a href="#news">News</a>\
+  <!--<h1 style="margin-left: 20px; margin-top: 20px">Taras Palczynski III</h1>-->\
+\
+  <a href="/">Home</a>\
+  <a href="/entries">Entries</a>\
+  <a href="javascript:alert(\'Hello\');">News</a>\
   <a href="#contact">Contact</a>\
 </div>\
 ');

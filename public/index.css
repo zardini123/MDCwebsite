@@ -1,8 +1,17 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
 /* The navigation bar */
 .navbar {
   overflow: hidden;
   background-color: #333;
+  transform: none;
   position: fixed; /* Set the navbar to fixed position */
+  padding: 0px;
+  margin: 0px;
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
 }
@@ -12,8 +21,11 @@
   float: left;
   display: block;
   color: #f2f2f2;
+  font-size: 11pt;
   text-align: center;
-  padding: 14px 16px;
+  padding: 15pt 15pt;
+  /*margin-top: 5px;*/
+  /*padding-right: 14px 16px;*/
   text-decoration: none;
 }
 
@@ -25,5 +37,54 @@
 
 /* Main content */
 .main {
-  margin-top: 60px; /* Add a top margin to avoid content overlay */
+  width: 1000px;
+  margin: auto;
+
+  margin-top: 2cm; /* Add a top margin to avoid content overlay */
+}
+
+.fig {
+  color: #FF9031;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+figure {
+  position: relative;
+  right: 0;
+
+  float: right;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+  /*background: #f2f2f2;*/
+}
+figcaption {
+  font-size: 10pt;
+  text-align: center;
+}
+
+p {
+  font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times,serif;
+  font-size: 14pt;
+  line-height: 1.4em;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: -.003em;
+
+  text-indent: 2em;
+  margin-bottom: 10px;
+
+  display: block;
+}
+
+h1 {
+  font-size: 28pt;
+  margin-bottom: 5mm;
+  text-indent: -1em;
+}
+
+h2 {
+  margin-bottom: 1mm;
+  text-indent: -1em;
 }

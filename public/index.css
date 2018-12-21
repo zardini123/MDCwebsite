@@ -6,10 +6,12 @@
 
 /* The navigation bar */
 .navbar {
+  position: fixed; /* Set the navbar to fixed position */
+  z-index: 1000;
+  
   overflow: hidden;
   background-color: #333;
   transform: none;
-  position: fixed; /* Set the navbar to fixed position */
   padding: 0px;
   margin: 0px;
   top: 0; /* Position the navbar at the top of the page */
@@ -37,7 +39,7 @@
 
 /* Main content */
 .main {
-  width: 1000px;
+  width: 60%;
   margin: auto;
 
   margin-top: 2cm; /* Add a top margin to avoid content overlay */
@@ -46,13 +48,12 @@
 .fig {
   color: #FF9031;
   text-decoration: underline;
-  text-decoration-style: dashed;
+  text-decoration-style: solid;
 }
 
 figure {
+  display: block;
   position: relative;
-  right: 0;
-
   float: right;
   border: thin silver solid;
   margin: 0.5em;

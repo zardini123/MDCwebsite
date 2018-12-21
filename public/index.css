@@ -70,10 +70,11 @@ h1 {
 
 #toc_container {
   display: table;
-  width: 70%;
+  width: 100%;
   margin: auto;
   margin-bottom: 5mm;
-  margin-left: 5mm;
+  margin-top: 5mm;
+  /*margin-left: 5mm;*/
 }
 #toc_container a {
   text-decoration: none;
@@ -84,7 +85,7 @@ h1 {
   font-weight: 700;
 
   width: 100%;
-  text-align: center;
+  text-align: left;
   border-bottom: 1px solid #b3b3b3;
   line-height: 0.1em;
   margin: 10px 0 20px;
@@ -133,6 +134,13 @@ p {
 }
 
 h2 {
+  font-size: 20pt;
+  margin-top: 1mm;
+  margin-bottom: 1.5mm;
+  text-indent: -1.5em;
+}
+h3 {
+  font-size: 16pt;
+  text-indent: 0.5em;
   margin-bottom: 1mm;
-  text-indent: -1em;
 }

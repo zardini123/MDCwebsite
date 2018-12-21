@@ -8,7 +8,7 @@
 .navbar {
   position: fixed; /* Set the navbar to fixed position */
   z-index: 1000;
-  
+
   overflow: hidden;
   background-color: #333;
   transform: none;
@@ -36,6 +36,7 @@
   background: #ddd;
   color: black;
 }
+/* END OF NAV BAR */
 
 /* Main content */
 .main {
@@ -43,6 +44,58 @@
   margin: auto;
 
   margin-top: 2cm; /* Add a top margin to avoid content overlay */
+}
+
+.titleInfo {
+  margin-bottom: 5mm;
+}
+.description {
+  display: inline;
+  font-size: 10pt;
+  color: #4d4d4d;
+}
+.date {
+  /*font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;*/
+  display: inline;
+  font-size: 10pt;
+  font-weight: 100;
+  /*color: #004080;*/
+  color: #4d4d4d;
+}
+h1 {
+  font-size: 28pt;
+  /*margin-bottom: 5mm;*/
+  text-indent: -0.75em;
+}
+
+#toc_container {
+  display: table;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 5mm;
+  margin-left: 5mm;
+}
+#toc_container a {
+  text-decoration: none;
+  line-height: 1.3em;
+}
+.toc_title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #b3b3b3;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+.toc_title span {
+  background:#fff;
+  padding: 0.1em;
+}
+#toc_container li, #toc_container ul, #toc_container ul li{
+  padding: 0px 25px;
+  list-style: outside none none !important;
 }
 
 .fig {
@@ -77,12 +130,6 @@ p {
   margin-bottom: 10px;
 
   display: block;
-}
-
-h1 {
-  font-size: 28pt;
-  margin-bottom: 5mm;
-  text-indent: -1em;
 }
 
 h2 {

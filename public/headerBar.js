@@ -1,6 +1,7 @@
 document.write('\
 <!DOCTYPE html>\
 <head>\
+  <link href=\'https://fonts.googleapis.com/css?family=Montserrat\' rel=\'stylesheet\'>\
   <link rel="stylesheet" href="/index.css">\
 </head>\
 \
